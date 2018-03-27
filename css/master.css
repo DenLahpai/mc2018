@@ -1,0 +1,109 @@
+
+body {
+    background: #01CFFF;
+}
+
+.content {
+    margin: 12px;
+    padding: 6px;
+    display: grid;
+    background: white;
+    border-radius: 6px;
+    grid-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    " nav nav nav "
+    " header header header "
+    " section section section "
+    " main main main "
+    " aside aside aside "
+    ;
+}
+
+nav {
+    grid-area: nav;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a img {
+    width: 150px;
+}
+
+header {
+    grid-area: header;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+section {
+    grid-area: section;
+}
+
+section h3 {
+    text-align: center;
+}
+
+section form ul li {
+    list-style: none;
+}
+
+section form ul li select {
+    padding: 6px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+section form ul li select option {
+    background: #009f00;
+    color: white;
+}
+
+section form ul li input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 12px;
+}
+
+
+main {
+    grid-area: main;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main table {
+    margin: 6px auto;
+    border-collapse: collapse;
+}
+
+main table thead tr {
+    background: #009f00;
+    color: white;
+}
+
+main table tr th, td {
+    border: 1px solid silver;
+    text-align: center;
+    padding: 6px;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+.required {
+    color: red;
+}

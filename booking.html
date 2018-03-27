@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="Shortcut icon" href="images/Logo_small.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Myanmar Connect 2018</title>
+    </head>
+    <body>
+        <div class="content">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="http://www.linkinmyanmar.com" title="Visit our website">
+                        <img src="images/LinkLogo.jpg" alt="logo"></a>
+                    </li>
+                </ul>
+            </nav>
+            <header>
+                <h1>Hotels and Transfers Bookings for Myanmar Connect 2018</h1>
+                <p>
+                    For group bookings, please contact us at <a href="mailto:den@linkinmyanmar.com">den@linkinmyanmar.com</a>.
+                </p>
+            </header>
+            <section>
+                <form action="functions.php" method="post">
+                    <ul>
+                        <li>
+                            <label for="Title"><span class="required">* </span>Title:</label>
+                            <select id="Title" name="Title">
+                                <option value="0">Select One</option>
+                                <option value="1">Mr.</option>
+                                <option value="2">Ms.</option>
+                                <option value="3">Mrs.</option>
+                                <option value="4">Dr.</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="FirstName"><span class="required">* </span>First Name:</label>
+                        </li>
+                        <li>
+                            <input type="text" name="FirstName" id="FirstName" placeholder="First Name" required>
+                        </li>
+                        <li>
+                            <label for="LastName"><span class="required">* </span>Last Name:</label>
+                        </li>
+                        <li>
+                            <input type="text" name="LastName" id="LastName" placeholder="Last Name" required>
+                        </li>
+                        <li>
+                            <label for="Email"><span class="required">* </span>Email:</label>
+                        </li>
+                        <li>
+                            <input type="email" name="Email" id="Email" placeholder="youremail@yourdomain.com" required>
+                        </li>
+                        <li>
+                            <label for="Organization"><span class="required">* </span>Organization:</label>
+                        </li>
+                        <li>
+                            <input type="text" name="Organization" id="Organization" placeholder="Name of your Organization" required>
+                        </li>
+                        <li>
+                            <label for="Address">Address:</label>
+                        </li>
+                        <li>
+                            <input type="text" name="Address" id="Addresss" placeholder="Address of your Organization">
+                        </li>
+                        <li>
+                            <label for="City">City:</label>
+                        </li>
+                        <li>
+                            <input type="text" name="City" id="City" placeholder="City">
+                        </li>
+                        <li>
+                            <label for="Phone">Phone:</label>
+                        </li>
+                        <li>
+                            <input type="text" name="Phone" id="Phone" placeholder="Phone Number">
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
